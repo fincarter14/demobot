@@ -18,4 +18,5 @@ def greet_person():
     return f'hi {name}!'
 
 
-app.run()
+if __name__ == '__main__':
+    app.run()
